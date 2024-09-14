@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Seat Booking</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Container for the whole layout -->
+    <div class="container">
+        <!-- Input section on the left side -->
+        <div class="input-section">
+            <!-- Display the number of available seats -->
+            <div id="available-seats">Available seats: 87</div>
+
+            <!-- Input for number of seats to book -->
+            <input type="number" id="seat-count" min="1" max="7" placeholder="Enter number of seats">
+
+            <!-- Button to trigger seat booking -->
+            <button id="book-seats">Book Seats</button>
+
+            <!-- Message display area -->
+            <div id="message"></div>
+        </div>
+
+        <!-- Seat layout section on the right side -->
+        <div class="seat-section">
+            <!-- Seat layout grid -->
+            <div id="seat-layout"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+
+</html>
